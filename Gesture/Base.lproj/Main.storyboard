@@ -156,7 +156,7 @@
             </objects>
             <point key="canvasLocation" x="3758" y="-2"/>
         </scene>
-        <!--Summary-->
+        <!--Summay-->
         <scene sceneID="Xuw-tP-lwh">
             <objects>
                 <tableViewController id="lN4-X9-lIH" customClass="SumTableViewController" customModule="Click_Count" customModuleProvider="target" sceneMemberID="viewController">
@@ -175,12 +175,12 @@
                                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="olH-e1-fTB">
                                             <rect key="frame" x="20" y="20" width="353" height="96"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="最近12小時點擊次數為" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="aOw-uW-Uxd">
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the 1st hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aOw-uW-Uxd">
                                                     <rect key="frame" x="0.0" y="0.0" width="240" height="96"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="240" id="ptR-gq-k94"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -218,7 +218,7 @@
                             <outlet property="delegate" destination="lN4-X9-lIH" id="nYO-Np-dqU"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Summary" id="EKl-bR-GOH">
+                    <navigationItem key="navigationItem" title="Summay" id="EKl-bR-GOH">
                         <barButtonItem key="rightBarButtonItem" title="Item" image="rectangle.and.pencil.and.ellipsis" catalog="system" id="rGr-Wx-YGe">
                             <connections>
                                 <action selector="rating:" destination="lN4-X9-lIH" id="D0o-Rp-tE7"/>
@@ -263,10 +263,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBlueColor">
-            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.0" green="0.47843137254901963" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemTealColor">
-            <color red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="tableBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

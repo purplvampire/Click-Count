@@ -1,0 +1,27 @@
+
+/* Class = "UILabel"; text = "0"; ObjectID = "86d-Bj-iQp"; */
+"86d-Bj-iQp.text" = "0";
+
+/* Class = "UILabel"; text = "2024-5-13 16:32:23"; ObjectID = "Aum-Se-QwN"; */
+"Aum-Se-QwN.text" = "2024-5-13 16:32:23";
+
+/* Class = "UINavigationItem"; title = "Summay"; ObjectID = "EKl-bR-GOH"; */
+"EKl-bR-GOH.title" = "摘要";
+
+/* Class = "UILabel"; text = "30次"; ObjectID = "NjR-2o-OWa"; */
+"NjR-2o-OWa.text" = "30次";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "ObT-hE-eeN"; */
+"ObT-hE-eeN.text" = "1";
+
+/* Class = "UILabel"; text = "In the 1st hour"; ObjectID = "aOw-uW-Uxd"; */
+"aOw-uW-Uxd.text" = "最近1小時";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "mbb-gk-ys4"; */
+"mbb-gk-ys4.title" = "Item";
+
+/* Class = "UINavigationItem"; title = "Detail"; ObjectID = "nmd-EH-7Vs"; */
+"nmd-EH-7Vs.title" = "點擊資訊";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "rGr-Wx-YGe"; */
+"rGr-Wx-YGe.title" = "Item";

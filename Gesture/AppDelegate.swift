@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        Thread.sleep(forTimeInterval: 1.3)    // 讓LauchScreen多停留5秒
+        Thread.sleep(forTimeInterval: 1.3)    // 讓LauchScreen多停留1.3秒
         
         return true
     }

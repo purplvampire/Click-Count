@@ -115,8 +115,13 @@ class SumTableViewController: UITableViewController {
 
         // Configure the cell...
         let row = indexPath.row
-        cell.periodLabel.text = "最近\(row + 1)小時的點擊次數為"
-        cell.tapeCountLabel.text = "\(sortedHourCounts[row].count)次"
+        let hourTitle = NSLocalizedString("SumTableVC.hourTitle", comment: "最近n小時的點擊次數為")
+        let hour = row + 1
+        cell.periodLabel.text = String.localizedStringWithFormat(hourTitle, hour)
+        
+        let countStr = NSLocalizedString("SumTableVC.count", comment: "n次")
+        let countNum = sortedHourCounts[row].count
+        cell.tapeCountLabel.text = String.localizedStringWithFormat(countStr, countNum)
 
         return cell
     }

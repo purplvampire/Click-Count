@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE2EA9D02C26E686009E58E7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE2EA9CE2C26E686009E58E7 /* Localizable.strings */; };
 		AEA4DA432C1C8FFD007B714E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA422C1C8FFD007B714E /* AppDelegate.swift */; };
 		AEA4DA452C1C8FFD007B714E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA442C1C8FFD007B714E /* SceneDelegate.swift */; };
 		AEA4DA472C1C8FFD007B714E /* TapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA462C1C8FFD007B714E /* TapeViewController.swift */; };
@@ -21,6 +22,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE2EA9C02C26D683009E58E7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
+		AE2EA9C12C26D683009E58E7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		AE2EA9C72C26DAF2009E58E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		AE2EA9C92C26DB19009E58E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		AE2EA9CF2C26E686009E58E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		AE2EA9D12C26E6AA009E58E7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		AEA4DA3F2C1C8FFD007B714E /* Click&Count.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Click&Count.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEA4DA422C1C8FFD007B714E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AEA4DA442C1C8FFD007B714E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +80,7 @@
 				AEA4DA4B2C1C8FFF007B714E /* Assets.xcassets */,
 				AEA4DA4D2C1C8FFF007B714E /* LaunchScreen.storyboard */,
 				AEA4DA502C1C8FFF007B714E /* Info.plist */,
+				AE2EA9CE2C26E686009E58E7 /* Localizable.strings */,
 			);
 			path = Gesture;
 			sourceTree = "<group>";
@@ -132,6 +140,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hant",
 			);
 			mainGroup = AEA4DA362C1C8FFD007B714E;
 			productRefGroup = AEA4DA402C1C8FFD007B714E /* Products */;
@@ -149,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEA4DA4C2C1C8FFF007B714E /* Assets.xcassets in Resources */,
+				AE2EA9D02C26E686009E58E7 /* Localizable.strings in Resources */,
 				AEA4DA4F2C1C8FFF007B714E /* Base in Resources */,
 				AEA4DA4A2C1C8FFD007B714E /* Base in Resources */,
 			);
@@ -175,10 +185,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		AE2EA9CE2C26E686009E58E7 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE2EA9CF2C26E686009E58E7 /* en */,
+				AE2EA9D12C26E6AA009E58E7 /* zh-Hant */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		AEA4DA482C1C8FFD007B714E /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AEA4DA492C1C8FFD007B714E /* Base */,
+				AE2EA9C02C26D683009E58E7 /* zh-Hant */,
+				AE2EA9C72C26DAF2009E58E7 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -187,6 +208,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				AEA4DA4E2C1C8FFF007B714E /* Base */,
+				AE2EA9C12C26D683009E58E7 /* zh-Hant */,
+				AE2EA9C92C26DB19009E58E7 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -199,6 +222,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -262,6 +286,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
