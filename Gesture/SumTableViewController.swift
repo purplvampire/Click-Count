@@ -21,12 +21,6 @@ class SumTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-        // self.navigationItem.rightBarButtonItem = self.editButtonItem
         
         guard let startDate = tapeTimes.first,
               let endDate = tapeTimes.last else {
@@ -40,7 +34,7 @@ class SumTableViewController: UITableViewController {
         while currentDate <= endDate {
             
             if let nextDate = Calendar.current.date(byAdding: .hour, value: hourInterval, to: currentDate) {
-
+                
                 currentDate = nextDate
                 
             } else {
@@ -48,27 +42,15 @@ class SumTableViewController: UITableViewController {
             }
             
         }
-        
-        for timestamp in tapeTimes {
-            let hour = calendar.component(.hour, from: timestamp)
-            hourlyCounts[hour, default: 0] += 1
-        }
-        
-        for (hour, count) in hourlyCounts.sorted(by: { $0.key < $1.key }) {
-            print("小時 \(hour): \(count)次")
-        }
-        
-        sortedHourCounts = hourlyCounts.map { ($0.key, $0.value) }.sorted { $0.0 > $1.0 }
+
+        sortedHourCounts = calculateTapeCount(tapeTimes: tapeTimes)
         periodHours = sortedHourCounts.count
-        print(sortedHourCounts)
+//        print(sortedHourCounts)
         
     }
     
-    func calculateTapeCount(tapeTimes: [Date]?) -> [(hour: Int, count: Int)]? {
-        guard let tapeTimes else {
-            assertionFailure("no value")
-            return nil
-        }
+    func calculateTapeCount(tapeTimes: [Date]) -> [(hour: Int, count: Int)] {
+
         for timestamp in tapeTimes {
             let hour = calendar.component(.hour, from: timestamp)
             hourlyCounts[hour, default: 0] += 1
@@ -87,7 +69,6 @@ class SumTableViewController: UITableViewController {
     @IBAction func rating(_ sender: Any) {
         
         requestAppReview()
-        
     }
     
     // 呼叫評分視圖
@@ -111,56 +92,24 @@ class SumTableViewController: UITableViewController {
 
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        
         let cell = tableView.dequeueReusableCell(withIdentifier: "\(SumTableViewCell.self)", for: indexPath) as! SumTableViewCell
 
         // Configure the cell...
         let row = indexPath.row
         let hourTitle = NSLocalizedString("SumTableVC.hourTitle", comment: "最近n小時的點擊次數為")
         let hour = row + 1
+        
         cell.periodLabel.text = String.localizedStringWithFormat(hourTitle, hour)
         
         let countStr = NSLocalizedString("SumTableVC.count", comment: "n次")
         let countNum = sortedHourCounts[row].count
+        
         cell.tapeCountLabel.text = String.localizedStringWithFormat(countStr, countNum)
 
         return cell
     }
     
-
-    /*
-    // Override to support conditional editing of the table view.
-    override func tableView(_ tableView: UITableView, canEditRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the specified item to be editable.
-        return true
-    }
-    */
-
-    /*
-    // Override to support editing the table view.
-    override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
-        if editingStyle == .delete {
-            // Delete the row from the data source
-            tableView.deleteRows(at: [indexPath], with: .fade)
-        } else if editingStyle == .insert {
-            // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
-        }    
-    }
-    */
-
-    /*
-    // Override to support rearranging the table view.
-    override func tableView(_ tableView: UITableView, moveRowAt fromIndexPath: IndexPath, to: IndexPath) {
-
-    }
-    */
-
-    /*
-    // Override to support conditional rearranging of the table view.
-    override func tableView(_ tableView: UITableView, canMoveRowAt indexPath: IndexPath) -> Bool {
-        // Return false if you do not want the item to be re-orderable.
-        return true
-    }
-    */
 
     /*
     // MARK: - Navigation

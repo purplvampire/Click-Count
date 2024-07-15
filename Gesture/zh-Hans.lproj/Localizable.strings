@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  Click&Count
+
+  Created by 陳信彰 on 2024/6/22.
+  
+*/
+"SumTableVC.hourTitle" = "最近%d小时的点击次数为";
+"SumTableVC.count" = "%d次";
