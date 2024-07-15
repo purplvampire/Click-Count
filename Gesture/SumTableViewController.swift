@@ -7,6 +7,7 @@
 
 import UIKit
 import StoreKit     // App評分
+import MessageUI    // 寄信
 
 class SumTableViewController: UITableViewController {
     
@@ -68,7 +69,8 @@ class SumTableViewController: UITableViewController {
     
     @IBAction func rating(_ sender: Any) {
         
-        requestAppReview()
+        callAlertVC()
+//        requestAppReview()
     }
     
     // 呼叫評分視圖
@@ -81,6 +83,75 @@ class SumTableViewController: UITableViewController {
         } else {
             return
         }
+    }
+    
+    func openWebSite(_ url: String) {
+        guard let url = URL(string: url) else { return }
+        UIApplication.shared.open(url)
+    }
+    
+    func openMailComposer() {
+        
+        if MFMailComposeViewController.canSendMail() {
+            let mailComposer = MFMailComposeViewController()
+            mailComposer.mailComposeDelegate = self
+            mailComposer.setToRecipients(["findgood168@gmail.com"])
+            mailComposer.setSubject("Click&Count")
+            mailComposer.setMessageBody("I have a request", isHTML: false)
+            
+            present(mailComposer, animated: true)
+            
+        } else {
+            let message = "Can't send email to me, please check your mail setting!"
+            let alertVC = UIAlertController(title: "Problem", message: message, preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "OK", style: .default)
+            alertVC.addAction(okAction)
+            present(alertVC, animated: true)
+        }
+    }
+    
+    // 呼叫告警視窗
+    func callAlertVC() {
+        let alertVC = UIAlertController(title: "more", message: nil, preferredStyle: .actionSheet)
+        /*
+        let buttonNames = ["Rating", "About me", "Send Request"]
+        for buttonName in buttonNames {
+            let action = UIAlertAction(title: buttonName, style: .default) { action in
+                print(action.title)
+            }
+            alertVC.addAction(action)
+        }
+         */
+        let ratingAction = UIAlertAction(title: "Rating", style: .default) { [weak self] action in
+            guard let self else { return }
+            
+            self.requestAppReview()
+        }
+        alertVC.addAction(ratingAction)
+        
+        let sendMailAction = UIAlertAction(title: "Send Mail to me", style: .default) { [weak self] action in
+            guard let self else { return }
+            
+            self.openMailComposer()
+        }
+        alertVC.addAction(sendMailAction)
+        
+        let aboutMeAction = UIAlertAction(title: "About Me", style: .default) { [weak self] action in
+            guard let self else { return }
+            self.openWebSite("https://twitter.com/purplvampire")
+        }
+        alertVC.addAction(aboutMeAction)
+        /*
+        let privacyAction = UIAlertAction(title: "Privacy Policy", style: .default) { [weak self] action in
+            guard let self else { return }
+            self.openWebSite("https://twitter.com/purplvampire")
+        }
+        alertVC.addAction(aboutMeAction)
+        */
+        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        alertVC.addAction(cancelAction)
+        
+        present(alertVC, animated: true)
     }
     
     // MARK: - Table view data source
@@ -121,4 +192,12 @@ class SumTableViewController: UITableViewController {
     }
     */
 
+}
+
+extension SumTableViewController: MFMailComposeViewControllerDelegate {
+    
+    func mailComposeController(_ controller: MFMailComposeViewController, didFinishWith result: MFMailComposeResult, error: (any Error)?) {
+        
+        controller.dismiss(animated: true)
+    }
 }
