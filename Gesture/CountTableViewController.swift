@@ -26,6 +26,11 @@ class CountTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Disbale button while tapelist is empty.
+        if tapeList.count == 0 {
+            sumBarButtonItem.isEnabled = false
+        }
 
     }
     
