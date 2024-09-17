@@ -7,7 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AE0574F62C47EF6400DC0D2A /* SetupTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0574F52C47EF6400DC0D2A /* SetupTableViewController.swift */; };
+		AE0575132C512CB200DC0D2A /* CustomSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0575122C512CB200DC0D2A /* CustomSetup.swift */; };
+		AE0575162C525AF000DC0D2A /* walkTrack2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0575152C525AF000DC0D2A /* walkTrack2.jpg */; };
+		AE0575182C525B1200DC0D2A /* NetworkConsole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0575172C525B1200DC0D2A /* NetworkConsole.jpg */; };
+		AE05751A2C525B2B00DC0D2A /* voice.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0575192C525B2B00DC0D2A /* voice.png */; };
 		AE2EA9D02C26E686009E58E7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE2EA9CE2C26E686009E58E7 /* Localizable.strings */; };
+		AE3872F32C998B9B00955FFC /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872F22C998B9B00955FFC /* LicenseViewController.swift */; };
+		AE3872F52C998BD000955FFC /* LicenseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872F42C998BD000955FFC /* LicenseTableViewController.swift */; };
+		AE3872F72C998BED00955FFC /* LicenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872F62C998BED00955FFC /* LicenseTableViewCell.swift */; };
+		AE3872FB2C998D2C00955FFC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872FA2C998D2300955FFC /* CustomButton.swift */; };
+		AE3872FD2C99B19800955FFC /* LicenseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872FC2C99B18A00955FFC /* LicenseData.swift */; };
+		AE3872FF2C99C71000955FFC /* TapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872FE2C99C70900955FFC /* TapData.swift */; };
 		AEA4DA432C1C8FFD007B714E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA422C1C8FFD007B714E /* AppDelegate.swift */; };
 		AEA4DA452C1C8FFD007B714E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA442C1C8FFD007B714E /* SceneDelegate.swift */; };
 		AEA4DA472C1C8FFD007B714E /* TapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA462C1C8FFD007B714E /* TapeViewController.swift */; };
@@ -19,15 +30,28 @@
 		AEA4DA5B2C1EF270007B714E /* CountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA5A2C1EF270007B714E /* CountTableViewCell.swift */; };
 		AEA4DA5D2C1F0F8F007B714E /* SumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA5C2C1F0F8F007B714E /* SumTableViewController.swift */; };
 		AEA4DA5F2C1F0FA2007B714E /* SumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA5E2C1F0FA2007B714E /* SumTableViewCell.swift */; };
+		AEDE0C4A2C99441300193531 /* pushing_a_key.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEDE0C492C99441300193531 /* pushing_a_key.mp3 */; };
+		AEDE0C4C2C9945E700193531 /* mobile_phone_C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEDE0C4B2C9945E700193531 /* mobile_phone_C.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE0574F52C47EF6400DC0D2A /* SetupTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetupTableViewController.swift; sourceTree = "<group>"; };
+		AE0575122C512CB200DC0D2A /* CustomSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSetup.swift; sourceTree = "<group>"; };
+		AE0575152C525AF000DC0D2A /* walkTrack2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = walkTrack2.jpg; sourceTree = "<group>"; };
+		AE0575172C525B1200DC0D2A /* NetworkConsole.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = NetworkConsole.jpg; sourceTree = "<group>"; };
+		AE0575192C525B2B00DC0D2A /* voice.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = voice.png; sourceTree = "<group>"; };
 		AE2EA9C02C26D683009E58E7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Main.strings"; sourceTree = "<group>"; };
 		AE2EA9C12C26D683009E58E7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		AE2EA9C72C26DAF2009E58E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		AE2EA9C92C26DB19009E58E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		AE2EA9CF2C26E686009E58E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AE2EA9D12C26E6AA009E58E7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		AE3872F22C998B9B00955FFC /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
+		AE3872F42C998BD000955FFC /* LicenseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseTableViewController.swift; sourceTree = "<group>"; };
+		AE3872F62C998BED00955FFC /* LicenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseTableViewCell.swift; sourceTree = "<group>"; };
+		AE3872FA2C998D2300955FFC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		AE3872FC2C99B18A00955FFC /* LicenseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseData.swift; sourceTree = "<group>"; };
+		AE3872FE2C99C70900955FFC /* TapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapData.swift; sourceTree = "<group>"; };
 		AE7B3D2F2C45448B0015F7CD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		AE7B3D302C45448B0015F7CD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		AE7B3D312C45448B0015F7CD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -47,6 +71,8 @@
 		AEA4DA5A2C1EF270007B714E /* CountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTableViewCell.swift; sourceTree = "<group>"; };
 		AEA4DA5C2C1F0F8F007B714E /* SumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumTableViewController.swift; sourceTree = "<group>"; };
 		AEA4DA5E2C1F0FA2007B714E /* SumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumTableViewCell.swift; sourceTree = "<group>"; };
+		AEDE0C492C99441300193531 /* pushing_a_key.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pushing_a_key.mp3; sourceTree = "<group>"; };
+		AEDE0C4B2C9945E700193531 /* mobile_phone_C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mobile_phone_C.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +86,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE0575112C512C5B00DC0D2A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE3872FE2C99C70900955FFC /* TapData.swift */,
+				AE3872FC2C99B18A00955FFC /* LicenseData.swift */,
+				AE3872FA2C998D2300955FFC /* CustomButton.swift */,
+				AE0575122C512CB200DC0D2A /* CustomSetup.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AE0575142C525A5700DC0D2A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE0575152C525AF000DC0D2A /* walkTrack2.jpg */,
+				AE0575172C525B1200DC0D2A /* NetworkConsole.jpg */,
+				AE0575192C525B2B00DC0D2A /* voice.png */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		AEA4DA362C1C8FFD007B714E = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +126,9 @@
 		AEA4DA412C1C8FFD007B714E /* Gesture */ = {
 			isa = PBXGroup;
 			children = (
+				AEDE0C482C9943FC00193531 /* Metials */,
+				AE0575142C525A5700DC0D2A /* View */,
+				AE0575112C512C5B00DC0D2A /* Model */,
 				AEA4DA602C1F36D8007B714E /* ViewController */,
 				AEA4DA422C1C8FFD007B714E /* AppDelegate.swift */,
 				AEA4DA442C1C8FFD007B714E /* SceneDelegate.swift */,
@@ -95,13 +145,26 @@
 			isa = PBXGroup;
 			children = (
 				AEA4DA462C1C8FFD007B714E /* TapeViewController.swift */,
+				AE0574F52C47EF6400DC0D2A /* SetupTableViewController.swift */,
 				AEA4DA562C1D1D17007B714E /* CountViewController.swift */,
 				AEA4DA582C1EF136007B714E /* CountTableViewController.swift */,
 				AEA4DA5A2C1EF270007B714E /* CountTableViewCell.swift */,
 				AEA4DA5C2C1F0F8F007B714E /* SumTableViewController.swift */,
 				AEA4DA5E2C1F0FA2007B714E /* SumTableViewCell.swift */,
+				AE3872F22C998B9B00955FFC /* LicenseViewController.swift */,
+				AE3872F42C998BD000955FFC /* LicenseTableViewController.swift */,
+				AE3872F62C998BED00955FFC /* LicenseTableViewCell.swift */,
 			);
 			name = ViewController;
+			sourceTree = "<group>";
+		};
+		AEDE0C482C9943FC00193531 /* Metials */ = {
+			isa = PBXGroup;
+			children = (
+				AEDE0C4B2C9945E700193531 /* mobile_phone_C.mp3 */,
+				AEDE0C492C99441300193531 /* pushing_a_key.mp3 */,
+			);
+			path = Metials;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +231,11 @@
 				AEA4DA4C2C1C8FFF007B714E /* Assets.xcassets in Resources */,
 				AE2EA9D02C26E686009E58E7 /* Localizable.strings in Resources */,
 				AEA4DA4F2C1C8FFF007B714E /* Base in Resources */,
+				AE05751A2C525B2B00DC0D2A /* voice.png in Resources */,
+				AEDE0C4C2C9945E700193531 /* mobile_phone_C.mp3 in Resources */,
+				AE0575162C525AF000DC0D2A /* walkTrack2.jpg in Resources */,
+				AEDE0C4A2C99441300193531 /* pushing_a_key.mp3 in Resources */,
+				AE0575182C525B1200DC0D2A /* NetworkConsole.jpg in Resources */,
 				AEA4DA4A2C1C8FFD007B714E /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -181,12 +249,20 @@
 			files = (
 				AEA4DA572C1D1D17007B714E /* CountViewController.swift in Sources */,
 				AEA4DA5F2C1F0FA2007B714E /* SumTableViewCell.swift in Sources */,
+				AE3872F52C998BD000955FFC /* LicenseTableViewController.swift in Sources */,
+				AE0574F62C47EF6400DC0D2A /* SetupTableViewController.swift in Sources */,
+				AE3872FB2C998D2C00955FFC /* CustomButton.swift in Sources */,
+				AE3872F32C998B9B00955FFC /* LicenseViewController.swift in Sources */,
 				AEA4DA592C1EF136007B714E /* CountTableViewController.swift in Sources */,
+				AE3872FF2C99C71000955FFC /* TapData.swift in Sources */,
 				AEA4DA5D2C1F0F8F007B714E /* SumTableViewController.swift in Sources */,
 				AEA4DA472C1C8FFD007B714E /* TapeViewController.swift in Sources */,
+				AE0575132C512CB200DC0D2A /* CustomSetup.swift in Sources */,
 				AEA4DA5B2C1EF270007B714E /* CountTableViewCell.swift in Sources */,
 				AEA4DA432C1C8FFD007B714E /* AppDelegate.swift in Sources */,
 				AEA4DA452C1C8FFD007B714E /* SceneDelegate.swift in Sources */,
+				AE3872F72C998BED00955FFC /* LicenseTableViewCell.swift in Sources */,
+				AE3872FD2C99B19800955FFC /* LicenseData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = com.purplvampire.Gesture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -409,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1;
+				MARKETING_VERSION = 1.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.purplvampire.Click-Count";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

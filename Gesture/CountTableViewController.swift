@@ -30,6 +30,7 @@ class CountTableViewController: UITableViewController {
         // Disbale button while tapelist is empty.
         if tapeList.count == 0 {
             sumBarButtonItem.isEnabled = false
+            
         }
 
     }

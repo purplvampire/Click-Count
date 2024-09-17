@@ -58,7 +58,7 @@ class SumTableViewController: UITableViewController {
         }
         
         for (hour, count) in hourlyCounts.sorted(by: { $0.key < $1.key }) {
-            print("小時 \(hour): \(count)次")
+//            print("小時 \(hour): \(count)次")
         }
         
         let sortedHourCounts = hourlyCounts.map { ($0.key, $0.value) }.sorted { $0.0 > $1.0 }
@@ -97,13 +97,14 @@ class SumTableViewController: UITableViewController {
             mailComposer.mailComposeDelegate = self
             mailComposer.setToRecipients(["findgood168@gmail.com"])
             mailComposer.setSubject("Click&Count")
-            mailComposer.setMessageBody("I have a request", isHTML: false)
+            let mailBody = NSLocalizedString("SumTableVC.mailBody", comment: "I have a feedback!")
+            mailComposer.setMessageBody(mailBody, isHTML: false)
             
             present(mailComposer, animated: true)
             
         } else {
             let message = "Can't send email to me, please check your mail setting!"
-            let alertVC = UIAlertController(title: "Problem", message: message, preferredStyle: .alert)
+            let alertVC = UIAlertController(title: nil, message: message, preferredStyle: .alert)
             let okAction = UIAlertAction(title: "OK", style: .default)
             alertVC.addAction(okAction)
             present(alertVC, animated: true)
@@ -112,7 +113,8 @@ class SumTableViewController: UITableViewController {
     
     // 呼叫告警視窗
     func callAlertVC() {
-        let alertVC = UIAlertController(title: "more", message: nil, preferredStyle: .actionSheet)
+        let listTitle = NSLocalizedString("SumTableVC.choiceTitle", comment: "More")
+        let alertVC = UIAlertController(title: listTitle, message: nil, preferredStyle: .actionSheet)
         /*
         let buttonNames = ["Rating", "About me", "Send Request"]
         for buttonName in buttonNames {
@@ -122,6 +124,7 @@ class SumTableViewController: UITableViewController {
             alertVC.addAction(action)
         }
          */
+        let ratingTitle = NSLocalizedString("SumTableVC.ratingTitle", comment: "Rating")
         let ratingAction = UIAlertAction(title: "Rating", style: .default) { [weak self] action in
             guard let self else { return }
             
@@ -129,14 +132,16 @@ class SumTableViewController: UITableViewController {
         }
         alertVC.addAction(ratingAction)
         
-        let sendMailAction = UIAlertAction(title: "Send Mail to me", style: .default) { [weak self] action in
+        let feedbackTitle = NSLocalizedString("SumTableVC.feedbackTitle", comment: "Feedback")
+        let sendMailAction = UIAlertAction(title: feedbackTitle, style: .default) { [weak self] action in
             guard let self else { return }
             
             self.openMailComposer()
         }
         alertVC.addAction(sendMailAction)
         
-        let aboutMeAction = UIAlertAction(title: "About Me", style: .default) { [weak self] action in
+        let infoTitle = NSLocalizedString("SumTableVC.infoTitle", comment: "About Me")
+        let aboutMeAction = UIAlertAction(title: infoTitle, style: .default) { [weak self] action in
             guard let self else { return }
             self.openWebSite("https://twitter.com/purplvampire")
         }
@@ -148,7 +153,8 @@ class SumTableViewController: UITableViewController {
         }
         alertVC.addAction(aboutMeAction)
         */
-        let cancelAction = UIAlertAction(title: "Cancel", style: .cancel)
+        let cancelString = NSLocalizedString("SumTableVC.cancelString", comment: "Cancel")
+        let cancelAction = UIAlertAction(title: cancelString, style: .cancel)
         alertVC.addAction(cancelAction)
         
         present(alertVC, animated: true)

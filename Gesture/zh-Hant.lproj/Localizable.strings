@@ -7,3 +7,15 @@
 */
 "SumTableVC.hourTitle" = "最近%d小時的點擊次數為";
 "SumTableVC.count" = "%d次";
+
+"SumTableVC.mailTitle" = "錯誤";
+"SumTableVC.mailMsg" = "寄信失敗，請確認郵件設定！";
+"SumTableVC.mailBody" = "我有問題！";
+
+"SumTableVC.choiceTitle" = "更多選項";
+"SumTableVC.ratingTitle" = "評分";
+"SumTableVC.feedbackTitle" = "回饋";
+"SumTableVC.infoTitle" = "關於我";
+"SumTableVC.cancelString" = "取消";
+
+"TapeVC.clearMessage" = "清除計算";

@@ -7,3 +7,15 @@
 */
 "SumTableVC.hourTitle" = "Last %d hour";
 "SumTableVC.count" = "%d times";
+
+"SumTableVC.mailTitle" = "Can't send email to me, please check your mail setting!";
+"SumTableVC.mailMsg" = "Can't send email to me, please check your mail setting!";
+"SumTableVC.mailBody" = "I have a feedback!";
+
+"SumTableVC.choiceTitle" = "More";
+"SumTableVC.ratingTitle" = "Rating";
+"SumTableVC.feedbackTitle" = "Feedback";
+"SumTableVC.infoTitle" = "About Me";
+"SumTableVC.cancelString" = "Cancel";
+
+"TapeVC.clearMessage" = "Clear Counting";

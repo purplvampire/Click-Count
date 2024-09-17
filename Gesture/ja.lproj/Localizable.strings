@@ -7,3 +7,15 @@
 */
 "SumTableVC.hourTitle" = "最近%d時間のクリック数は";
 "SumTableVC.count" = "%d回";
+
+"SumTableVC.mailTitle" = "エラー";
+"SumTableVC.mailMsg" = "メールの送信に失敗しました。メール設定を確認してください！";
+"SumTableVC.mailBody" = "質問があります！";
+
+"SumTableVC.choiceTitle" = "その他のオプション";
+"SumTableVC.ratingTitle" = "評価";
+"SumTableVC.feedbackTitle" = "フィードバック";
+"SumTableVC.infoTitle" = "私について";
+"SumTableVC.cancelString" = "キャンセル";
+
+"TapeVC.clearMessage" = "計算のクリア";
