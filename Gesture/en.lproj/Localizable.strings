@@ -5,7 +5,7 @@
   Created by 陳信彰 on 2024/6/22.
   
 */
-"SumTableVC.hourTitle" = "Last %d hour";
+"SumTableVC.hourTitle" = "%d hour";
 "SumTableVC.count" = "%d times";
 
 "SumTableVC.mailTitle" = "Can't send email to me, please check your mail setting!";
@@ -19,3 +19,4 @@
 "SumTableVC.cancelString" = "Cancel";
 
 "TapeVC.clearMessage" = "Clear Counting";
+"TapeVC.continueMessage" = "Continue previous record?";

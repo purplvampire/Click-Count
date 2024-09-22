@@ -6,7 +6,7 @@
 "Aum-Se-QwN.text" = "2024-5-13 16:32:23";
 
 /* Class = "UINavigationItem"; title = "Summay"; ObjectID = "EKl-bR-GOH"; */
-"EKl-bR-GOH.title" = "Summay";
+"EKl-bR-GOH.title" = "摘要";
 
 /* Class = "UILabel"; text = "30次"; ObjectID = "NjR-2o-OWa"; */
 "NjR-2o-OWa.text" = "%dtimes";
@@ -21,7 +21,13 @@
 "mbb-gk-ys4.title" = "Item";
 
 /* Class = "UINavigationItem"; title = "Detail"; ObjectID = "nmd-EH-7Vs"; */
-"nmd-EH-7Vs.title" = "Detail";
+"nmd-EH-7Vs.title" = "細節";
 
 /* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "rGr-Wx-YGe"; */
 "rGr-Wx-YGe.title" = "Item";
+
+/* Class = "UILabel"; text = "Shake"; ObjectID = "cc7-6L-bGm"; */
+"cc7-6L-bGm.text" = "Shake";
+
+/* Class = "UILabel"; text = "Shake"; ObjectID = "4FI-Jh-LuQ"; */
+"4FI-Jh-LuQ.text" = "Sound";

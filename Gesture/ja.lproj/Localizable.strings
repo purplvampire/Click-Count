@@ -5,7 +5,7 @@
   Created by 陳信彰 on 2024/6/22.
   
 */
-"SumTableVC.hourTitle" = "最近%d時間のクリック数は";
+"SumTableVC.hourTitle" = "%d時間のクリック数は";
 "SumTableVC.count" = "%d回";
 
 "SumTableVC.mailTitle" = "エラー";
@@ -19,3 +19,4 @@
 "SumTableVC.cancelString" = "キャンセル";
 
 "TapeVC.clearMessage" = "計算のクリア";
+"TapeVC.continueMessage" = "前回のレコードを継承する";

@@ -25,3 +25,12 @@
 
 /* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "rGr-Wx-YGe"; */
 "rGr-Wx-YGe.title" = "Item";
+
+/* Class = "UILabel"; text = "Shake"; ObjectID = "cc7-6L-bGm"; */
+"cc7-6L-bGm.text" = "震動";
+
+/* Class = "UILabel"; text = "Shake"; ObjectID = "4FI-Jh-LuQ"; */
+"4FI-Jh-LuQ.text" = "音效";
+
+/* Class = "UILabel"; text = "info"; ObjectID = "pGx-2Q-5Op"; */
+"pGx-2Q-5Op.text" = "關於我";

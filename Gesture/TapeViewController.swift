@@ -6,7 +6,6 @@
 //
 
 import UIKit
-//import AudioToolbox // 手機震動與音效
 import AVFoundation // 手機音樂
 
 
@@ -17,6 +16,9 @@ class TapeViewController: UIViewController {
         didSet {
             TapeDataManager.shared.saveTapeData(tapeTimes)
         }
+    }
+    var tapeData: [Date]? {
+        TapeDataManager.shared.loadTapeData()
     }
     
     var themeColor: String {
@@ -41,7 +43,9 @@ class TapeViewController: UIViewController {
         updateUI(themeColor: themeColor)
         
         // load data
-        checkBeforeLoadTapeData()
+        if tapeData != nil {
+            checkBeforeLoadTapeData()
+        }
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -63,7 +67,8 @@ class TapeViewController: UIViewController {
     
     func checkBeforeLoadTapeData() {
         
-        let alertVC = UIAlertController(title: nil, message: "Do you want to load the previous data?", preferredStyle: .alert)
+        let message = NSLocalizedString("TapeVC.continueMessage", comment: "是否繼承前次紀錄")
+        let alertVC = UIAlertController(title: nil, message: message, preferredStyle: .alert)
         let yesAction = UIAlertAction(title: "Yes", style: .default) { _ in
             self.loadTapeData()
             self.countNumber = self.tapeTimes.count
@@ -188,7 +193,7 @@ class TapeViewController: UIViewController {
     }
     
     func clearCounting() {
-        
+
         self.countNumber = 0
         self.tapeTimes = []
         countLabel.text = String(countNumber)

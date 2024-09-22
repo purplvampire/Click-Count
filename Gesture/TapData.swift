@@ -30,4 +30,17 @@ class TapeDataManager: Codable {
         return try? decoder.decode([Date].self, from: data)
     }
     
+    func clearTapeData() {
+        let url = documentDirectory.appendingPathComponent("tapData.json")
+        try? FileManager.default.removeItem(at: url)
+    }
+    
+}
+
+struct TapeDateFormat {
+    let year: Int
+    let month: Int
+    let day: Int
+    let hour: Int
+    let count: Int
 }
