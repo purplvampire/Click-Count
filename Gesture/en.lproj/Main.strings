@@ -1,4 +1,3 @@
-
 /* Class = "UILabel"; text = "0"; ObjectID = "86d-Bj-iQp"; */
 "86d-Bj-iQp.text" = "0";
 
@@ -31,3 +30,6 @@
 
 /* Class = "UILabel"; text = "Shake"; ObjectID = "4FI-Jh-LuQ"; */
 "4FI-Jh-LuQ.text" = "Sound";
+
+/* Class = "UILabel"; text = "Test"; ObjectID = "YLK-tY-HnE"; */
+"YLK-tY-HnE.text" = "Test";

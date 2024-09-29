@@ -263,43 +263,12 @@
             </objects>
             <point key="canvasLocation" x="1903.0534351145038" y="-2.1126760563380285"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="fM9-cE-Gbs">
-            <objects>
-                <viewController id="7ug-1y-hnU" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="7N8-xK-OWN">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FUCK YOU" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hP5-Dc-hBN">
-                                <rect key="frame" x="30" y="386" width="333" height="80"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="80" id="l8t-Nk-VuF"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="70"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <viewLayoutGuide key="safeArea" id="xqq-Zn-qg4"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="hP5-Dc-hBN" firstAttribute="leading" secondItem="xqq-Zn-qg4" secondAttribute="leading" constant="30" id="8m7-qh-r1j"/>
-                            <constraint firstItem="hP5-Dc-hBN" firstAttribute="centerY" secondItem="7N8-xK-OWN" secondAttribute="centerY" id="YMG-Kn-cv6"/>
-                            <constraint firstItem="xqq-Zn-qg4" firstAttribute="trailing" secondItem="hP5-Dc-hBN" secondAttribute="trailing" constant="30" id="xiS-fN-ZJX"/>
-                        </constraints>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="LxI-Jx-lkx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1903" y="651"/>
-        </scene>
         <!--Setup-->
         <scene sceneID="etD-aB-oMe">
             <objects>
                 <tableViewController id="PxB-ES-yeu" customClass="SetupTableViewController" customModule="Click_Count" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Wz2-ib-Rjn">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852.00000000000011"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
@@ -749,7 +718,7 @@
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aAa-eF-x8H" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3680" y="-675"/>
+            <point key="canvasLocation" x="3756" y="-675"/>
         </scene>
         <!--License-->
         <scene sceneID="Fp0-Fp-mvU">
@@ -819,7 +788,7 @@ e-mail : komoritaira@gmail.com</string>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKw-Mb-X6f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4418" y="-675"/>
+            <point key="canvasLocation" x="4685" y="-675"/>
         </scene>
     </scenes>
     <resources>
