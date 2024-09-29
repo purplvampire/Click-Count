@@ -30,12 +30,10 @@ class SumTableViewController: UITableViewController {
         // 取得日期列表(Section名稱)
         sortedDates = sortedHourCountsByDate.keys.sorted(by: >) // 按照日期降序
 
-        
         tableView.reloadData()
         
     }
     
-    // 請改寫這段函式，將hour值改為24小時制中的小時
     func calculateTapeCountByDate(tapeTimes: [Date]) -> [String: [(hour: Int, count: Int)]] {
         
         var dateHourlyCounts: [String: [Int:Int]] = [:]

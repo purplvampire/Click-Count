@@ -22,3 +22,11 @@
 "TapeVC.continueMessage" = "是否继承前次纪录";
 
 "SetupTableVC.colorMessage" = "颜色设定完成";
+"SetupTableVC.themeLabel" = "主题颜色";
+"SetupTableVC.shakeLabel" = "震动";
+"SetupTableVC.soundLabel" = "音效";
+"SetupTableVC.infoLabel" = "关于我";
+"SetupTableVC.privacyLabel" = "隐私政策";
+"SetupTableVC.ratingLabel" = "评价";
+"SetupTableVC.mailLabel" = "技术支持";
+"SetupTableVC.licenseLabel" = "授权";

@@ -22,3 +22,11 @@
 "TapeVC.continueMessage" = "前回のレコードを継承する";
 
 "SetupTableVC.colorMessage" = "色の設定が完了しました";
+"SetupTableVC.themeLabel" = "テーマカラー";
+"SetupTableVC.shakeLabel" = "振動";
+"SetupTableVC.soundLabel" = "サウンド";
+"SetupTableVC.infoLabel" = "私について";
+"SetupTableVC.privacyLabel" = "プライバシーポリシー";
+"SetupTableVC.ratingLabel" = "評価";
+"SetupTableVC.mailLabel" = "技術サポート";
+"SetupTableVC.licenseLabel" = "ライセンス";

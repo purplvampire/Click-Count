@@ -22,3 +22,11 @@
 "TapeVC.continueMessage" = "Continue previous record?";
 
 "SetupTableVC.colorMessage" = "Setup Color Success";
+"SetupTableVC.themeLabel" = "Theme Color";
+"SetupTableVC.shakeLabel" = "Shake";
+"SetupTableVC.soundLabel" = "Sound";
+"SetupTableVC.infoLabel" = "About Me";
+"SetupTableVC.privacyLabel" = "Privacy Policy";
+"SetupTableVC.ratingLabel" = "Rating & Feedback";
+"SetupTableVC.mailLabel" = "Find Support";
+"SetupTableVC.licenseLabel" = "License Declaration";

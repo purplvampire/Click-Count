@@ -15,6 +15,7 @@ protocol SetupTableVCDelegate {
 
 class SetupTableViewController: UITableViewController {
     
+    @IBOutlet weak var themeLabel: UILabel!
     @IBOutlet weak var mintButton: UIButton!
     @IBOutlet weak var orangeButton: UIButton!
     @IBOutlet weak var grayButton: UIButton!
@@ -24,9 +25,25 @@ class SetupTableViewController: UITableViewController {
     @IBOutlet weak var waveSwitch: UISwitch!
     @IBOutlet weak var soundSwitch: UISwitch!
     
+    
+    @IBOutlet weak var shakeLabel: UILabel!
+    @IBOutlet weak var soundLabel: UILabel!
+    
+    @IBOutlet weak var infoLabel: UILabel!
+    @IBOutlet weak var privacyLabel: UILabel!
+    @IBOutlet weak var ratingLabel: UILabel!
+    @IBOutlet weak var mailLabel: UILabel!
+    @IBOutlet weak var licenseLabel: UILabel!
+    
+    
+    
+    
+    var isSoundEnable: Bool = false
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.changeUILanguage()
         self.updateUI()
     }
     
@@ -35,6 +52,27 @@ class SetupTableViewController: UITableViewController {
         waveSwitch.isOn = UserDefaultsManager.shared.getWaveEnable()
         soundSwitch.isOn = UserDefaultsManager.shared.getSoundEnable()
         
+    }
+    
+    func changeUILanguage() {
+        themeLabel.text = NSLocalizedString("SetupTableVC.themeLabel", comment: "Theme Color")
+        shakeLabel.text = NSLocalizedString("SetupTableVC.shakeLabel", comment: "Shake")
+        soundLabel.text = NSLocalizedString("SetupTableVC.soundLabel", comment: "Sound")
+        infoLabel.text = NSLocalizedString("SetupTableVC.infoLabel", comment: "About Me")
+        privacyLabel.text = NSLocalizedString("SetupTableVC.privacyLabel", comment: "Privacy Policy")
+        ratingLabel.text = NSLocalizedString("SetupTableVC.ratingLabel", comment: "Rate Us")
+        mailLabel.text = NSLocalizedString("SetupTableVC.mailLabel", comment: "Contact Us")
+        licenseLabel.text = NSLocalizedString("SetupTableVC.licenseLabel", comment: "License")
+        
+    }
+    
+    func changeUISymbol(shake: Bool, sound: Bool) {
+        if shake {
+//            self.shakeLabel
+        }
+        if sound {
+//            self.soundLabel
+        }
     }
     
     

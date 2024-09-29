@@ -13,13 +13,11 @@
 		AE0575182C525B1200DC0D2A /* NetworkConsole.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AE0575172C525B1200DC0D2A /* NetworkConsole.jpg */; };
 		AE05751A2C525B2B00DC0D2A /* voice.png in Resources */ = {isa = PBXBuildFile; fileRef = AE0575192C525B2B00DC0D2A /* voice.png */; };
 		AE2EA9D02C26E686009E58E7 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = AE2EA9CE2C26E686009E58E7 /* Localizable.strings */; };
-		AE3872F32C998B9B00955FFC /* LicenseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872F22C998B9B00955FFC /* LicenseViewController.swift */; };
 		AE3872F52C998BD000955FFC /* LicenseTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872F42C998BD000955FFC /* LicenseTableViewController.swift */; };
 		AE3872F72C998BED00955FFC /* LicenseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872F62C998BED00955FFC /* LicenseTableViewCell.swift */; };
 		AE3872FB2C998D2C00955FFC /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872FA2C998D2300955FFC /* CustomButton.swift */; };
 		AE3872FD2C99B19800955FFC /* LicenseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872FC2C99B18A00955FFC /* LicenseData.swift */; };
 		AE3872FF2C99C71000955FFC /* TapData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3872FE2C99C70900955FFC /* TapData.swift */; };
-		AE3873032C9FC75000955FFC /* TestTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3873022C9FC75000955FFC /* TestTableViewController.swift */; };
 		AEA4DA432C1C8FFD007B714E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA422C1C8FFD007B714E /* AppDelegate.swift */; };
 		AEA4DA452C1C8FFD007B714E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA442C1C8FFD007B714E /* SceneDelegate.swift */; };
 		AEA4DA472C1C8FFD007B714E /* TapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA462C1C8FFD007B714E /* TapeViewController.swift */; };
@@ -46,13 +44,11 @@
 		AE2EA9C92C26DB19009E58E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		AE2EA9CF2C26E686009E58E7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		AE2EA9D12C26E6AA009E58E7 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
-		AE3872F22C998B9B00955FFC /* LicenseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseViewController.swift; sourceTree = "<group>"; };
 		AE3872F42C998BD000955FFC /* LicenseTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseTableViewController.swift; sourceTree = "<group>"; };
 		AE3872F62C998BED00955FFC /* LicenseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseTableViewCell.swift; sourceTree = "<group>"; };
 		AE3872FA2C998D2300955FFC /* CustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		AE3872FC2C99B18A00955FFC /* LicenseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LicenseData.swift; sourceTree = "<group>"; };
 		AE3872FE2C99C70900955FFC /* TapData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapData.swift; sourceTree = "<group>"; };
-		AE3873022C9FC75000955FFC /* TestTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTableViewController.swift; sourceTree = "<group>"; };
 		AE7B3D2F2C45448B0015F7CD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		AE7B3D302C45448B0015F7CD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		AE7B3D312C45448B0015F7CD /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
@@ -151,10 +147,8 @@
 				AEA4DA5A2C1EF270007B714E /* CountTableViewCell.swift */,
 				AEA4DA5C2C1F0F8F007B714E /* SumTableViewController.swift */,
 				AEA4DA5E2C1F0FA2007B714E /* SumTableViewCell.swift */,
-				AE3872F22C998B9B00955FFC /* LicenseViewController.swift */,
 				AE3872F42C998BD000955FFC /* LicenseTableViewController.swift */,
 				AE3872F62C998BED00955FFC /* LicenseTableViewCell.swift */,
-				AE3873022C9FC75000955FFC /* TestTableViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -250,9 +244,7 @@
 				AEA4DA5F2C1F0FA2007B714E /* SumTableViewCell.swift in Sources */,
 				AE3872F52C998BD000955FFC /* LicenseTableViewController.swift in Sources */,
 				AE0574F62C47EF6400DC0D2A /* SetupTableViewController.swift in Sources */,
-				AE3873032C9FC75000955FFC /* TestTableViewController.swift in Sources */,
 				AE3872FB2C998D2C00955FFC /* CustomButton.swift in Sources */,
-				AE3872F32C998B9B00955FFC /* LicenseViewController.swift in Sources */,
 				AEA4DA592C1EF136007B714E /* CountTableViewController.swift in Sources */,
 				AE3872FF2C99C71000955FFC /* TapData.swift in Sources */,
 				AEA4DA5D2C1F0F8F007B714E /* SumTableViewController.swift in Sources */,

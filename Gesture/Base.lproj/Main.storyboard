@@ -86,7 +86,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2851" y="-2"/>
+            <point key="canvasLocation" x="2607" y="-359"/>
         </scene>
         <!--Detail-->
         <scene sceneID="nVU-qS-rXl">
@@ -184,16 +184,16 @@
                                             <rect key="frame" x="20" y="20" width="313" height="96"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="In the 1st hour" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="aOw-uW-Uxd">
-                                                    <rect key="frame" x="0.0" y="0.0" width="240" height="96"/>
+                                                    <rect key="frame" x="0.0" y="0.0" width="220" height="96"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="width" constant="240" id="ptR-gq-k94"/>
+                                                        <constraint firstAttribute="width" constant="220" id="ptR-gq-k94"/>
                                                     </constraints>
                                                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="30次" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NjR-2o-OWa">
-                                                    <rect key="frame" x="250" y="0.0" width="63" height="96"/>
+                                                    <rect key="frame" x="230" y="0.0" width="83" height="96"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -261,14 +261,14 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="IFp-Mc-5LR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1903.0534351145038" y="-2.1126760563380285"/>
+            <point key="canvasLocation" x="1827" y="-359"/>
         </scene>
         <!--Setup-->
         <scene sceneID="etD-aB-oMe">
             <objects>
                 <tableViewController id="PxB-ES-yeu" customClass="SetupTableViewController" customModule="Click_Count" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" id="Wz2-ib-Rjn">
-                        <rect key="frame" x="0.0" y="0.0" width="393" height="852.00000000000011"/>
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <sections>
@@ -419,7 +419,7 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="FYX-cL-mDa">
                                                     <rect key="frame" x="25" y="15" width="318" height="50"/>
                                                     <subviews>
-                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horn.blast" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kTI-Ow-SOf">
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="horn" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="kTI-Ow-SOf">
                                                             <rect key="frame" x="0.0" y="0.66666666666666785" width="50" height="48.666666666666657"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="50" id="Prr-SN-cGG"/>
@@ -708,10 +708,18 @@
                     <connections>
                         <outlet property="cyanButton" destination="bmV-5i-Kfa" id="U4n-1H-AvQ"/>
                         <outlet property="grayButton" destination="vFk-8R-6Jb" id="CDa-y4-LUC"/>
+                        <outlet property="infoLabel" destination="pGx-2Q-5Op" id="VyH-2R-YTo"/>
+                        <outlet property="licenseLabel" destination="Gh3-NE-gBj" id="wzl-RL-7BQ"/>
+                        <outlet property="mailLabel" destination="nje-dE-ejv" id="nTQ-7F-wU2"/>
                         <outlet property="mintButton" destination="imh-au-kF7" id="mw5-Ny-agw"/>
                         <outlet property="orangeButton" destination="hWJ-km-TXq" id="G8Z-o0-P6O"/>
+                        <outlet property="privacyLabel" destination="uUl-dw-ckB" id="lhi-9e-rOG"/>
                         <outlet property="purpleButton" destination="V68-Si-Zo3" id="4py-Sj-Xs6"/>
+                        <outlet property="ratingLabel" destination="LRA-t6-0zq" id="BPi-VH-fxW"/>
+                        <outlet property="shakeLabel" destination="cc7-6L-bGm" id="Mz7-bD-LSG"/>
+                        <outlet property="soundLabel" destination="4FI-Jh-LuQ" id="kA8-wD-G7P"/>
                         <outlet property="soundSwitch" destination="JEV-af-OYP" id="aPW-hW-b1n"/>
+                        <outlet property="themeLabel" destination="Dcq-Ur-lSw" id="LMc-gM-SPb"/>
                         <outlet property="waveSwitch" destination="xRF-va-i7K" id="k9q-Dh-eto"/>
                         <segue destination="eHe-iw-uLS" kind="show" identifier="showLicense" id="3Wv-zm-KWB"/>
                     </connections>
@@ -797,7 +805,7 @@ e-mail : komoritaira@gmail.com</string>
         <image name="envelope" catalog="system" width="128" height="85"/>
         <image name="filemenu.and.cursorarrow" catalog="system" width="128" height="108"/>
         <image name="gearshape.fill" catalog="system" width="128" height="123"/>
-        <image name="horn.blast" catalog="system" width="128" height="71"/>
+        <image name="horn" catalog="system" width="128" height="99"/>
         <image name="info" catalog="system" width="93" height="128"/>
         <image name="info.square" catalog="system" width="128" height="114"/>
         <image name="iphone.gen2.radiowaves.left.and.right" catalog="system" width="128" height="85"/>
