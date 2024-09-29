@@ -31,7 +31,6 @@
 		AEA4DA5B2C1EF270007B714E /* CountTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA5A2C1EF270007B714E /* CountTableViewCell.swift */; };
 		AEA4DA5D2C1F0F8F007B714E /* SumTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA5C2C1F0F8F007B714E /* SumTableViewController.swift */; };
 		AEA4DA5F2C1F0FA2007B714E /* SumTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEA4DA5E2C1F0FA2007B714E /* SumTableViewCell.swift */; };
-		AEDE0C4A2C99441300193531 /* pushing_a_key.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEDE0C492C99441300193531 /* pushing_a_key.mp3 */; };
 		AEDE0C4C2C9945E700193531 /* mobile_phone_C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = AEDE0C4B2C9945E700193531 /* mobile_phone_C.mp3 */; };
 /* End PBXBuildFile section */
 
@@ -73,7 +72,6 @@
 		AEA4DA5A2C1EF270007B714E /* CountTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountTableViewCell.swift; sourceTree = "<group>"; };
 		AEA4DA5C2C1F0F8F007B714E /* SumTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumTableViewController.swift; sourceTree = "<group>"; };
 		AEA4DA5E2C1F0FA2007B714E /* SumTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SumTableViewCell.swift; sourceTree = "<group>"; };
-		AEDE0C492C99441300193531 /* pushing_a_key.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pushing_a_key.mp3; sourceTree = "<group>"; };
 		AEDE0C4B2C9945E700193531 /* mobile_phone_C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = mobile_phone_C.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -165,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				AEDE0C4B2C9945E700193531 /* mobile_phone_C.mp3 */,
-				AEDE0C492C99441300193531 /* pushing_a_key.mp3 */,
 			);
 			path = Metials;
 			sourceTree = "<group>";
@@ -237,7 +234,6 @@
 				AE05751A2C525B2B00DC0D2A /* voice.png in Resources */,
 				AEDE0C4C2C9945E700193531 /* mobile_phone_C.mp3 in Resources */,
 				AE0575162C525AF000DC0D2A /* walkTrack2.jpg in Resources */,
-				AEDE0C4A2C99441300193531 /* pushing_a_key.mp3 in Resources */,
 				AE0575182C525B1200DC0D2A /* NetworkConsole.jpg in Resources */,
 				AEA4DA4A2C1C8FFD007B714E /* Base in Resources */,
 			);
@@ -439,7 +435,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 86A854TG2V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gesture/Info.plist;
@@ -454,7 +450,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.purplvampire.Gesture;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
@@ -474,7 +470,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0;
 				DEVELOPMENT_TEAM = 86A854TG2V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Gesture/Info.plist;
@@ -489,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.4;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.purplvampire.Click-Count";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";

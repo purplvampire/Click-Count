@@ -20,3 +20,5 @@
 
 "TapeVC.clearMessage" = "清除計算";
 "TapeVC.continueMessage" = "是否繼承前次紀錄";
+
+"SetupTableVC.colorMessage" = "顏色設定完成";

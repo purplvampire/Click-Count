@@ -68,7 +68,8 @@ class SetupTableViewController: UITableViewController {
     }
     
     func callAlertVC(_ color: String) {
-        let alertVC = UIAlertController(title: color, message: "Setup Color Success", preferredStyle: .alert)
+        let message = NSLocalizedString("SetupTableVC.colorMessage", comment: "顏色設定完成")
+        let alertVC = UIAlertController(title: color, message: message, preferredStyle: .alert)
         let okAction = UIAlertAction(title: "OK", style: .default)
         alertVC.addAction(okAction)
         

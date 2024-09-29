@@ -20,3 +20,5 @@
 
 "TapeVC.clearMessage" = "Clear Counting";
 "TapeVC.continueMessage" = "Continue previous record?";
+
+"SetupTableVC.colorMessage" = "Setup Color Success";

@@ -20,3 +20,5 @@
 
 "TapeVC.clearMessage" = "計算のクリア";
 "TapeVC.continueMessage" = "前回のレコードを継承する";
+
+"SetupTableVC.colorMessage" = "色の設定が完了しました";
