@@ -5,11 +5,11 @@
   Created by 陳信彰 on 2024/6/22.
   
 */
-"SumTableVC.hourTitle" = "%d小时的次数为";
+"SumTableVC.hourTitle" = "%d点钟的次数为";
 "SumTableVC.count" = "%d次";
 
 "SumTableVC.mailTitle" = "错误";
-"SumTableVC.mailMsg" = "邮件发送失败，请确认邮件设置！";
+"SumTableVC.mailMsg" = "寄信失败，请确认邮件设置！";
 "SumTableVC.mailBody" = "我有问题！";
 
 "SumTableVC.choiceTitle" = "更多选项";
@@ -17,11 +17,12 @@
 "SumTableVC.feedbackTitle" = "反馈";
 "SumTableVC.infoTitle" = "关于我";
 "SumTableVC.cancelString" = "取消";
+"SumTableVC.summaryTitle" = "统计";
 
 "TapeVC.clearMessage" = "清除计算";
-"TapeVC.continueMessage" = "是否继承前次纪录";
+"TapeVC.continueMessage" = "是否继承上次记录";
 
-"SetupTableVC.colorMessage" = "颜色设定完成";
+"SetupTableVC.colorMessage" = "颜色设置完成";
 "SetupTableVC.themeLabel" = "主题颜色";
 "SetupTableVC.shakeLabel" = "震动";
 "SetupTableVC.soundLabel" = "音效";
@@ -30,3 +31,9 @@
 "SetupTableVC.ratingLabel" = "评价";
 "SetupTableVC.mailLabel" = "技术支持";
 "SetupTableVC.licenseLabel" = "授权";
+"SetupTableVC.setupNavigationItem" = "设置";
+
+"LicenseTableVC.licenseTitle" = "授权";
+
+"CountTableVC.detailTitle" = "记录";
+

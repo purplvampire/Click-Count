@@ -15,6 +15,9 @@ protocol SetupTableVCDelegate {
 
 class SetupTableViewController: UITableViewController {
     
+    @IBOutlet weak var setupNavigationItem: UINavigationItem!
+    
+    
     @IBOutlet weak var themeLabel: UILabel!
     @IBOutlet weak var mintButton: UIButton!
     @IBOutlet weak var orangeButton: UIButton!
@@ -55,6 +58,7 @@ class SetupTableViewController: UITableViewController {
     }
     
     func changeUILanguage() {
+        setupNavigationItem.title = NSLocalizedString("SetupTableVC.setupNavigationItem", comment: "Setup")
         themeLabel.text = NSLocalizedString("SetupTableVC.themeLabel", comment: "Theme Color")
         shakeLabel.text = NSLocalizedString("SetupTableVC.shakeLabel", comment: "Shake")
         soundLabel.text = NSLocalizedString("SetupTableVC.soundLabel", comment: "Sound")

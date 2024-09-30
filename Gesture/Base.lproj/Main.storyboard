@@ -157,6 +157,7 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="detailNavigationItem" destination="nmd-EH-7Vs" id="y8P-OZ-y5w"/>
                         <outlet property="sumBarButtonItem" destination="mbb-gk-ys4" id="tLg-kA-Ru2"/>
                         <segue destination="lN4-X9-lIH" kind="show" identifier="ToSumVCSegue" id="dhA-U9-lox"/>
                     </connections>
@@ -173,7 +174,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SumTableViewCell" rowHeight="136" id="yNi-54-Hhp" customClass="SumTableViewCell" customModule="Click_Count" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="SumTableViewCell" rowHeight="136" id="yNi-54-Hhp" customClass="SumTableViewCell" customModule="Click_Count" customModuleProvider="target">
                                 <rect key="frame" x="20" y="55.333332061767578" width="353" height="136"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="yNi-54-Hhp" id="QaZ-r1-d7n">
@@ -233,6 +234,9 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="summaryNavigationItem" destination="EKl-bR-GOH" id="d3h-r2-slL"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Wgh-Uv-3Sa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -716,6 +720,7 @@
                         <outlet property="privacyLabel" destination="uUl-dw-ckB" id="lhi-9e-rOG"/>
                         <outlet property="purpleButton" destination="V68-Si-Zo3" id="4py-Sj-Xs6"/>
                         <outlet property="ratingLabel" destination="LRA-t6-0zq" id="BPi-VH-fxW"/>
+                        <outlet property="setupNavigationItem" destination="ZQH-ns-qeG" id="tm0-7I-Zmp"/>
                         <outlet property="shakeLabel" destination="cc7-6L-bGm" id="Mz7-bD-LSG"/>
                         <outlet property="soundLabel" destination="4FI-Jh-LuQ" id="kA8-wD-G7P"/>
                         <outlet property="soundSwitch" destination="JEV-af-OYP" id="aPW-hW-b1n"/>
@@ -793,6 +798,9 @@ e-mail : komoritaira@gmail.com</string>
                         </connections>
                     </tableView>
                     <navigationItem key="navigationItem" title="License" id="imf-zI-sli"/>
+                    <connections>
+                        <outlet property="licenseNavigationItem" destination="imf-zI-sli" id="PYu-J4-WcI"/>
+                    </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aKw-Mb-X6f" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

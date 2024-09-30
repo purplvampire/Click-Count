@@ -17,6 +17,7 @@
 "SumTableVC.feedbackTitle" = "回饋";
 "SumTableVC.infoTitle" = "關於我";
 "SumTableVC.cancelString" = "取消";
+"SumTableVC.summaryTitle" = "統計";
 
 "TapeVC.clearMessage" = "清除計算";
 "TapeVC.continueMessage" = "是否繼承前次紀錄";
@@ -30,3 +31,8 @@
 "SetupTableVC.ratingLabel" = "評價";
 "SetupTableVC.mailLabel" = "技術支援";
 "SetupTableVC.licenseLabel" = "授權";
+"SetupTableVC.setupNavigationItem" = "設定";
+
+"LicenseTableVC.licenseTitle" = "授權";
+
+"CountTableVC.detailTitle" = "紀錄";

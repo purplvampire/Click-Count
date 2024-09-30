@@ -10,16 +10,17 @@
 
 "SumTableVC.mailTitle" = "エラー";
 "SumTableVC.mailMsg" = "メールの送信に失敗しました。メール設定を確認してください！";
-"SumTableVC.mailBody" = "質問があります！";
+"SumTableVC.mailBody" = "問題があります！";
 
 "SumTableVC.choiceTitle" = "その他のオプション";
 "SumTableVC.ratingTitle" = "評価";
 "SumTableVC.feedbackTitle" = "フィードバック";
 "SumTableVC.infoTitle" = "私について";
 "SumTableVC.cancelString" = "キャンセル";
+"SumTableVC.summaryTitle" = "統計";
 
-"TapeVC.clearMessage" = "計算のクリア";
-"TapeVC.continueMessage" = "前回のレコードを継承する";
+"TapeVC.clearMessage" = "計算をクリア";
+"TapeVC.continueMessage" = "前回の記録を継続しますか？";
 
 "SetupTableVC.colorMessage" = "色の設定が完了しました";
 "SetupTableVC.themeLabel" = "テーマカラー";
@@ -30,3 +31,8 @@
 "SetupTableVC.ratingLabel" = "評価";
 "SetupTableVC.mailLabel" = "技術サポート";
 "SetupTableVC.licenseLabel" = "ライセンス";
+"SetupTableVC.setupNavigationItem" = "設定";
+
+"LicenseTableVC.licenseTitle" = "ライセンス";
+
+"CountTableVC.detailTitle" = "記録";

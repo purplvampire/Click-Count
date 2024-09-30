@@ -17,6 +17,7 @@
 "SumTableVC.feedbackTitle" = "Feedback";
 "SumTableVC.infoTitle" = "About Me";
 "SumTableVC.cancelString" = "Cancel";
+"SumTableVC.summaryTitle" = "Summary";
 
 "TapeVC.clearMessage" = "Clear Counting";
 "TapeVC.continueMessage" = "Continue previous record?";
@@ -30,3 +31,8 @@
 "SetupTableVC.ratingLabel" = "Rating & Feedback";
 "SetupTableVC.mailLabel" = "Find Support";
 "SetupTableVC.licenseLabel" = "License Declaration";
+"SetupTableVC.setupNavigationItem" = "Setup";
+
+"LicenseTableVC.licenseTitle" = "License";
+
+"CountTableVC.detailTitle" = "Record";

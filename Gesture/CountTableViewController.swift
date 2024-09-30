@@ -9,6 +9,7 @@ import UIKit
 
 class CountTableViewController: UITableViewController {
     
+    @IBOutlet weak var detailNavigationItem: UINavigationItem!
     
     @IBOutlet weak var sumBarButtonItem: UIBarButtonItem!
     
@@ -27,12 +28,18 @@ class CountTableViewController: UITableViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        updateUI()
+        
         // Disbale button while tapelist is empty.
         if tapeList.count == 0 {
             sumBarButtonItem.isEnabled = false
             
         }
 
+    }
+    
+    func updateUI() {
+        detailNavigationItem.title = NSLocalizedString("CountTableVC.detailTitle", comment: "Record")
     }
     
     @IBAction func toSumTableVC(_ sender: UIBarButtonItem) {

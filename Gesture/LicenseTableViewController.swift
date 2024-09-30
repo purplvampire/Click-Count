@@ -10,7 +10,8 @@ import UIKit
 
 class LicenseTableViewController: UITableViewController {
     
-
+    @IBOutlet weak var licenseNavigationItem: UINavigationItem!
+    
     let licenseText: LicenseData = LicenseData(title: "1", content: nil)
     let licenseData: [LicenseData] = [
         LicenseData(title: "小森平的免費下載音效",
@@ -31,6 +32,12 @@ class LicenseTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+        updateUI()
+    }
+    
+    func updateUI() {
+        licenseNavigationItem.title = NSLocalizedString("LicenseTableVC.licenseTitle", comment: "License")
     }
 
     // MARK: - Table view data source

@@ -12,6 +12,9 @@ import MessageUI    // 寄信
 
 class SumTableViewController: UITableViewController {
     
+    @IBOutlet weak var summaryNavigationItem: UINavigationItem!
+    
+    
     var periodTapes = 0
     var tapeTimes = [Date]()
     var hourlyCounts = [Int: Int]()
@@ -24,6 +27,8 @@ class SumTableViewController: UITableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        updateUI()
 
         sortedHourCountsByDate = calculateTapeCountByDate(tapeTimes: tapeTimes)
         
@@ -32,6 +37,10 @@ class SumTableViewController: UITableViewController {
 
         tableView.reloadData()
         
+    }
+    
+    func updateUI() {
+        summaryNavigationItem.title = NSLocalizedString("SumTableVC.summaryTitle", comment: "Summary")
     }
     
     func calculateTapeCountByDate(tapeTimes: [Date]) -> [String: [(hour: Int, count: Int)]] {
@@ -183,10 +192,7 @@ class SumTableViewController: UITableViewController {
         // Configure the cell...
         let date = sortedDates[indexPath.section]   // 取得對應的日期
         let row = indexPath.row
-        
-        
-        
-        
+
         if let hourlyCounts = sortedHourCountsByDate[date] {
             
             let hourTitle = NSLocalizedString("SumTableVC.hourTitle", comment: "n點鐘的點擊次數為")
